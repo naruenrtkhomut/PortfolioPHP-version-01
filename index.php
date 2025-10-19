@@ -24,20 +24,253 @@ include_once "src/view/page-index.php";
             background-color: #61002c;
         }
 
-        @media (max-width: 575px) {}
+        @media (max-width: 575px) {
+            div[content] {
+                width: 100%;
+                height: 80vh;
+                left: 0;
+                top: 0;
+                display: grid;
+                grid-template-rows: 70vh 10vh;
+            }
+            div[content-detail] {
+                padding-left: 20px;
+                padding-right: 20px;
+                color: #ffffff;
+                font-size: 3cqi;
+            }
+            div[content-detail-header] {
+                font-size: 7cqi;
+            }
+            div[content-detail-about] {
+                margin-top: 20px;
+                display: block;
+            }
+            div[content-detail-about] div {
+                display: flex;
+                justify-content: start;
+            }
+            div[content-detail-project] {
+                width: 100%;
+                height: 20vh;
+            }
+            div[project-item] {
+                font-size: 5cqi;
+                text-align: center;
+                height: fit-content;
+                margin-top: 10vh;
+                transform: translateY(-50%);
+            }
+            div[content-skill] {
+                width: 98%;
+                height: 15vh;
+                color: #ffffff;
+                margin-left: 1%;
+            }
+            div[content-skill-image] {
+                height: max-content;
+                overflow-y: auto;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+                height: 10vh;
+            }
+            div[content-skill] img {
+                height: 9vh;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+            div[app-copyright] {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                color: #ffffff;
+            }
+        }
 
-        @media (min-width: 576px) and (max-width: 767px) {}
+        @media (min-width: 576px) and (max-width: 767px) {
+            div[content] {
+                width: 100%;
+                height: 80vh;
+                left: 0;
+                top: 0;
+                display: grid;
+                grid-template-rows: 70vh 10vh;
+            }
+            div[content-detail] {
+                padding-left: 20px;
+                padding-right: 20px;
+                color: #ffffff;
+                font-size: 3cqi;
+            }
+            div[content-detail-header] {
+                font-size: 7cqi;
+            }
+            div[content-detail-about] {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            div[content-detail-project] {
+                width: 100%;
+                height: 20vh;
+            }
+            div[project-item] {
+                font-size: 5cqi;
+                text-align: center;
+                height: fit-content;
+                margin-top: 10vh;
+                transform: translateY(-50%);
+            }
+            div[content-skill] {
+                width: 98%;
+                height: 15vh;
+                color: #ffffff;
+                margin-left: 1%;
+            }
+            div[content-skill-image] {
+                height: max-content;
+                overflow-y: auto;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+                height: 20vh;
+            }
+            div[content-skill] img {
+                height: 9vh;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+            div[app-copyright] {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                color: #ffffff;
+            }
+        }
 
-        @media (min-width: 768px) and (max-width: 991px) {}
+        @media (min-width: 768px) and (max-width: 991px) {
+            div[content] {
+                width: 100%;
+                height: 80vh;
+                left: 0;
+                top: 0;
+                display: grid;
+                grid-template-rows: 70vh 10vh;
+            }
+            div[content-detail] {
+                padding-left: 20px;
+                padding-right: 20px;
+                color: #ffffff;
+                font-size: 3cqi;
+            }
+            div[content-detail-header] {
+                font-size: 7cqi;
+            }
+            div[content-detail-about] {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            div[content-detail-project] {
+                width: 100%;
+                height: 20vh;
+            }
+            div[project-item] {
+                font-size: 5cqi;
+                text-align: center;
+                height: fit-content;
+                margin-top: 10vh;
+                transform: translateY(-50%);
+            }
+            div[content-skill] {
+                width: 98%;
+                height: 15vh;
+                color: #ffffff;
+                margin-left: 1%;
+            }
+            div[content-skill-image] {
+                height: max-content;
+                overflow-y: auto;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+                height: 15vh;
+            }
+            div[content-skill] img {
+                height: 14vh;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+            div[app-copyright] {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                color: #ffffff;
+            }
+        }
 
-        @media (min-width: 992px) and (max-width: 1199px) {}
+        @media (min-width: 992px) and (max-width: 1199px) {
+            div[content] {
+                width: 100%;
+                height: 80vh;
+                left: 0;
+                top: 0;
+                display: grid;
+                grid-template-rows: 70vh 10vh;
+            }
+            div[content-detail] {
+                padding-left: 20px;
+                padding-right: 20px;
+                color: #ffffff;
+                font-size: 3cqi;
+            }
+            div[content-detail-header] {
+                font-size: 7cqi;
+            }
+            div[content-detail-about] {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            div[content-detail-project] {
+                width: 100%;
+                height: 20vh;
+            }
+            div[project-item] {
+                font-size: 5cqi;
+                text-align: center;
+                height: fit-content;
+                margin-top: 10vh;
+                transform: translateY(-50%);
+            }
+            div[content-skill] {
+                width: 98%;
+                height: 15vh;
+                color: #ffffff;
+                margin-left: 1%;
+            }
+            div[content-skill-image] {
+                height: max-content;
+                overflow-y: auto;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+                height: 20vh;
+            }
+            div[content-skill] img {
+                height: 9vh;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+            div[app-copyright] {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                color: #ffffff;
+            }
+        }
 
-        @media (min-width: 1200px) and (max-width: 1399px) {}
-
-        @media (min-width: 1400px) {
+        @media (min-width: 1200px) and (max-width: 1399px) {
             div[content] {
                 position: absolute;
-                width: 50%;
+                width: 60%;
                 height: 100vh;
                 left: 0;
                 top: 0;
@@ -103,14 +336,104 @@ include_once "src/view/page-index.php";
             }
             div[app-image] {
                 position: absolute;
-                width: 50%;
-                height: 100vh;
-                top: 0;
-                left: 50%;
+                width: 40%;
+                height: 90vh;
+                top: 10vh;
+                left: 60%;
                 background-image: url("public/image/page-01.png");
                 background-position: right;
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position: top center;
+                z-index: -1;
+            }
+
+            div[app-copyright] {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                color: #ffffff;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            div[content] {
+                position: absolute;
+                width: 60%;
+                height: 100vh;
+                left: 0;
+                top: 0;
+                display: grid;
+                grid-template-rows: 90vh 10vh;
+            }
+
+            div[content-detail] {
+                padding-top: 10vh;
+                padding-left: 50px;
+                color: #ffffff;
+                font-size: 1.2cqi;
+            }
+
+            div[content-detail-header] {
+                font-size: 5cqi;
+            }
+
+            div[content-detail-about] {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+
+            div[content-detail-project] {
+                width: 100%;
+                height: 40vh;
+                margin-top: 20px;
+            }
+            div[project-item] {
+                font-size: 2cqi;
+                text-align: center;
+                height: fit-content;
+                margin-top: 15vh;
+                margin-bottom: 20px;
+            }
+
+            div[content-skill] {
+                display: block;
+                color: #ffffff;
+                padding-left: 50px;
+            }
+
+            div[content-skill-name] {
+                font-size: 1.5cqi;
+            }
+
+            div[content-skill-image] {
+                height: max-content;
+                overflow-y: auto;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+                height: 5vh;
+            }
+
+            div[content-skill-image]::-webkit-scrollbar {
+                display: none;
+            }
+
+            div[content-skill-image] img {
+                height: 5vh;
+                margin-right: 10px;
+            }
+            div[app-image] {
+                position: absolute;
+                width: 40%;
+                height: 90vh;
+                top: 10vh;
+                left: 60%;
+                background-image: url("public/image/page-01.png");
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: top center;
                 z-index: -1;
             }
 
@@ -131,26 +454,14 @@ include_once "src/view/page-index.php";
             <?php echo PageIndexView::LoadingContent(); ?>
             <div content-detail-about>
                 <div>
-                    <button class="btn btn-danger btn-lg">Learn More About Me</button>
-                    <button class="btn btn-outline-light btn-lg">Resume</button>
+                    <button class="btn btn-danger btn-lg" onclick="window.location.assign('/about');">Learn More About Me</button>
+                    <button class="btn btn-outline-light btn-lg" onclick="window.location.assign('/resume');">Resume</button>
                 </div>
                 <div>
-                    <button class="btn btn-outline-light btn-lg">Contact</button>
+                    <button class="btn btn-outline-light btn-lg" onclick="window.location.assign('/contact');">Contact</button>
                 </div>
             </div>
-            <div content-detail-project id="projectSlice" class="carousel slide">
-                <div class="carousel-inner">
-                    <?php echo PageIndexView::LoadingProjects(); ?>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#projectSlice" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#projectSlice" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            <?php echo PageIndexView::LoadingProjectSlice(); ?>
         </div>
         <div content-skill>
             <div content-skill-name>Tech skills(scroll down)</div>
